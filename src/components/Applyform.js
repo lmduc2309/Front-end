@@ -84,6 +84,7 @@ export default class form extends Component {
       render() {
       const {formErrors} = this.state;
       return (
+        <section id="Applyform">
         <div className="wrapper">
           <div className="form-wrapper">
             <h1>Application form</h1>
@@ -161,6 +162,7 @@ export default class form extends Component {
             </form>
           </div>
       </div>
+      </section>
     );
   }
   }

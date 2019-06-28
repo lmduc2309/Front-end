@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/enclave-background.png) no-repeat top center;
+   background: #161415 url(../images/hero_1.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,9 +52,10 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
+
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
@@ -71,6 +72,32 @@ header .banner-text h3 {
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
+header .banner-text .row-mb-5 .colspace {
+   text-align: center;
+   display: inline-block;
+}
+header .banner-text .row-mb-5 .colspace .form-controller {
+   margin-right: 10px;
+   border-right-width: 8px;
+   max-height: 25px;
+
+}
+header .banner-text .row-mb-5 .colspace input {
+   font-size: 23px;
+}
+header .banner-text .row-mb-5 .colspace select {
+}
+header .banner-text .row-mb-5 .colspace .form-control {
+   margin-right: 10px;
+   border-right-width: 8px;
+   ;
+   }
+   header .banner-text .row-mb-5 .colspace select {
+      font-size: 25px;
+   }
+header .banner-text form {
+   display: inline-block;
+}
 header .banner-text h3 span,
 header .banner-text h3 a {
    color: #fff;
@@ -81,6 +108,7 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
+
 
 /* header social links */
 header .social {
@@ -165,19 +193,19 @@ ul#nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
-   padding: 8px 13px;
-   line-height: 32px;
+   padding: 13px 20px ;
+   line-height: 48px;
 	text-decoration: none;
    text-align: left;
    color: #cbe6ab;
-
+   font-size: 17px;
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-ul#nav li a:hover, ul#nav li a:focus { color: #2b53b8; 
+ul#nav li a:hover, ul#nav li a:focus { color: #F06000; 
    transform: scale(1.5);
    /* Safari & Google Chrome */
    -webkit-transform: scale(1.5);
@@ -187,7 +215,12 @@ ul#nav li a:hover, ul#nav li a:focus { color: #2b53b8;
    -o-transform: scale(1.5);
    /* IE 9 */
    -ms-transform: scale(1.5);}
-
+ul#navimg li img {
+   position: relative;
+   width: 70px;
+   height: 70px;
+   margin-right: 2000px;
+}
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
@@ -797,6 +830,17 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
+#Applyform .wapper {
+   
+      margin-left: 30px;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 auto;
+      width: 100%;
+      padding-bottom: 30px;
+      text-align: center;
+      
+   }
 #contact {
    background: #191919;
    padding-top: 96px;
